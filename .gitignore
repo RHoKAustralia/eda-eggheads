@@ -1,0 +1,23 @@
+# Mac OS X
+.DS_Store
+.com.apple.timemachine.supported
+
+# Grails
+grailsw
+grailsw.bat
+*.log
+*.log.1
+
+# Gradle
+target/
+log/
+
+# IDE
+.settings/
+.classpath
+.project
+.idea/
+out/
+*.iws
+*.iml
+
