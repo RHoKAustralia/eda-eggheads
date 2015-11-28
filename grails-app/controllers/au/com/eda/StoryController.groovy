@@ -4,18 +4,16 @@ import grails.plugin.springsecurity.annotation.Secured
 import grails.transaction.Transactional
 
 @Secured(['ROLE_ADMIN', 'ROLE_USER'])
-class StoryController extends AbstractController {
+class StoryController extends CrudController<Story> {
 
-    def index() {
+    def list() { // For members to view
         if (!params.sort) {
             params.sort = "lastModified"
         }
 
-        Story.find("")
-
         List<Story> stories = Story.findAll("from Story s where s.mode = :mode and s.user.status = :status",
                 [mode: StoryMode.ACTIVE, status: UserStatus.ACTIVE],
-                params)
+                [max: 20, sort: 'lastModified', order: 'desc'])
 
         render(view: "index", model: [stories: stories])
     }
@@ -30,6 +28,10 @@ class StoryController extends AbstractController {
         render(view: "get", model: [story: story])
     }
 
+    def index() {
+        // TODO SHow all here (for admin view)
+    }
+
     def create() {
         render(view: "create")
     }
@@ -41,7 +43,7 @@ class StoryController extends AbstractController {
         }
 
         Story story = Story.get(params.id)
-        render(view: "edit", model:[story: story])
+        render(view: "edit", model: [story: story])
     }
 
     @Transactional

@@ -1,0 +1,38 @@
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.content {
+  padding-top: $content-padding;
+
+  @include media(sm) {
+    padding-top: $content-padding-sm;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+}
+
+.indicator {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 8000;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  @include media(sm) {
+    background: blue;
+  }
+  @include media(md) {
+    background: green;
+  }
+  @include media(lg) {
+    background: orange;
+  }
+}

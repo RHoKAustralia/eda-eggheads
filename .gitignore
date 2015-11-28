@@ -21,3 +21,8 @@ out/
 *.iws
 *.iml
 
+# Codekit
+.sass-cache
+.sass-cache.*
+.slcache/
+

@@ -1,0 +1,29 @@
+// Breakpoints
+@mixin media($point) {
+  $small: "(min-width: 768px)";
+  $medium: "(min-width: 992px)";
+  $large: "(min-width: 1200px)";
+
+  $show-sidebar: "(min-width: 1440px)";
+
+  @if $point == sm {
+    @media #{$small} {
+      @content;
+    }
+
+  } @else if $point == md {
+    @media #{$medium} {
+      @content;
+    }
+
+  } @else if $point == lg {
+    @media #{$large} {
+      @content;
+    }
+
+  } @else if $point == sidebar {
+    @media #{$show-sidebar} {
+      @content;
+    }
+  }
+}
