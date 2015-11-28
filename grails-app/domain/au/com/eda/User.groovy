@@ -12,9 +12,13 @@ class User {
         password minSize: 8
     }
 
-    static transients = ['profile']
+    static transients = ['profile', 'story']
 
     Profile getProfile() {
         return Profile.findByUser(this)
+    }
+
+    Story getStory() {
+        return Story.findByUser(this)
     }
 }

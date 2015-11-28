@@ -5,9 +5,10 @@ class Story {
     User user
     String title
     String description
+    Date created
     Date lastModified
     Mode mode
-    List<File> photoGallery = []
+    ArrayList<File> photoGallery = []
 
     Boolean willPayExpenses
     Boolean willCycleInterstate
