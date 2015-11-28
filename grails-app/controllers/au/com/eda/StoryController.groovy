@@ -11,8 +11,6 @@ class StoryController extends AbstractController {
             params.sort = "lastModified"
         }
 
-        Story.find("")
-
         List<Story> stories = Story.findAll("from Story s where s.mode = :mode and s.user.status = :status",
                 [mode: StoryMode.ACTIVE, status: UserStatus.ACTIVE],
                 params)

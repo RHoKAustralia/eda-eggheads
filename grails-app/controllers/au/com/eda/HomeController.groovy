@@ -1,6 +1,8 @@
-package eda.eggheads
+package au.com.eda
 
 class HomeController {
 
-    def index() { }
+    def index() {
+        render(view: "index")
+    }
 }

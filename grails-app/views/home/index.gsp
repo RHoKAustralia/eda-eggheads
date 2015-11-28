@@ -4,9 +4,6 @@
     <meta name="layout" content="main"/>
     <title>Egg Donation Australia</title>
 
-    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <asset:stylesheet src="bootstrap.min.css"/>
-
     <!-- Custom CSS -->
     <asset:stylesheet src="home.css"/>
 
@@ -147,14 +144,6 @@
         </div>
     </div>
 </footer>
-
-<!-- jQuery -->
-<asset:javascript src="jquery.js"/>
-
-<!-- Bootstrap Core JavaScript -->
-<asset:javascript src="bootstrap.min.js"/>
-
-<asset:javascript src="home.js"/>
 
 </body>
 </html>
