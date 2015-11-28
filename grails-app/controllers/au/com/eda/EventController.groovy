@@ -1,8 +1,11 @@
 package au.com.eda
 
-class EventController {
+class EventController extends AbstractController {
 
     def index() {
-        render(view: 'index')
+
+        List<Event> events = Event.findAll()
+
+        render(view: "index", model: [events: events])
     }
 }

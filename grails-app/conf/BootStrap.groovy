@@ -8,6 +8,7 @@ import au.com.eda.User
 import au.com.eda.UserStatus
 import au.com.eda.UserType
 import au.com.eda.Role
+import au.com.eda.Faq
 import au.com.eda.UserRole
 import org.joda.time.DateTime
 
@@ -45,7 +46,9 @@ class BootStrap {
 
 
                 new Story(title: "Test", description: "This is a story", user: adminUser, mode: StoryMode.ACTIVE).save(failOnError: true)
-//        new Story(title: "Test 2", description: "This is another story").save()
+
+                new Faq(question: "Test question 1", answer: "Test answer 1").save(failOnError: true)
+                new Faq(question: "Test question 2", answer: "Test answer 2").save(failOnError: true)
             }
         }
 

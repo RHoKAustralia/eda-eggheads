@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta name="layout" content="main"/>
-	<title>FAQ</title>
+	<title>Events</title>
 </head>
 
 <body>
@@ -15,21 +15,21 @@
 		<div class="col-md-6">
 			<div id="postlist">
 
-				<g:each in="${questions}">
+				<g:each in="${events}">
 
 					<div class="panel">
 						<div class="panel-heading">
 							<div class="text-center">
 								<div class="row">
 									<div class="col-sm-9">
-										<h3 class="pull-left">${it.question}</h3>
+										<h3 class="pull-left">${it.title}</h3>
 									</div>
 								</div>
 							</div>
 						</div>
 
 						<div class="panel-body">
-							${it.answer}
+							${it.description}
 						</div>
 					</div>
 

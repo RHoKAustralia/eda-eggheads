@@ -1,4 +1,4 @@
-package eda.eggheads
+package au.com.eda
 
 import grails.test.mixin.TestFor
 import spock.lang.Specification

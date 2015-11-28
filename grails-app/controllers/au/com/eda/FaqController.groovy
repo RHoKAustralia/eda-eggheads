@@ -1,8 +1,11 @@
 package au.com.eda
 
-class FaqController {
+class FaqController extends AbstractController {
 
     def index() {
-        render(view: 'index')
+
+        List<Faq> questions = Faq.findAll()
+
+        render(view: "index", model: [questions: questions])
     }
 }
