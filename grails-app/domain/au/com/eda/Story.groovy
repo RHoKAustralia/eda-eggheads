@@ -1,19 +1,21 @@
 package au.com.eda
 
+import org.joda.time.DateTime
+
 class Story {
 
     User user
     String title
     String description
-    Date created
-    Date lastModified
-    Mode mode
+    Date created = DateTime.now().toDate()
+    Date lastModified = DateTime.now().toDate()
+    StoryMode mode = StoryMode.DRAFT
     ArrayList<File> photoGallery = []
 
-    Boolean willPayExpenses
-    Boolean willCycleInterstate
-    Boolean willFlyDonorToThem
-    Boolean isSuccessful
+    Boolean willPayExpenses = false
+    Boolean willCycleInterstate = false
+    Boolean willFlyDonorToThem = false
+    Boolean isSuccessful = false
 
     Clinic clinic
 

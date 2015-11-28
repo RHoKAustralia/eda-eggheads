@@ -6,7 +6,7 @@ class Profile {
     User user
 
     @BindingFormat("dd/MM/yyyy")
-    Date datOfBirth
+    Date dateOfBirth
 
     String firstName
     String suburb
@@ -20,6 +20,7 @@ class Profile {
 
     static constraints = {
         recipientSubType nullable: true
+        profileImage nullable: true
     }
 
     static transients = ['profileImageLink']

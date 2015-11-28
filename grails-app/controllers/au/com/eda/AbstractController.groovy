@@ -2,7 +2,18 @@ package au.com.eda
 
 abstract class AbstractController {
 
-    protected checkParams() {
+    def springSecurityService
+
+    protected void logActivity(String data = null) {
+        new Activity(
+                ipAddress: request.getRemoteAddr(),
+                action: "${controllerName}/${actionName}",
+                data: data,
+                user: springSecurityService.currentUser as User
+        ).save()
+    }
+
+    protected void checkParams() {
         if (!params.max) {
             params.max = "20"
         }
@@ -17,6 +28,7 @@ abstract class AbstractController {
     }
 
     def beforeInterceptor = {
+        this.logActivity()
         this.checkParams()
     }
 }

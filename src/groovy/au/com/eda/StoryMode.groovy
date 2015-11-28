@@ -1,6 +1,6 @@
 package au.com.eda
 
-enum Mode {
+enum StoryMode {
     DRAFT,
     REVIEW,
     ACTIVE
