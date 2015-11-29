@@ -10,7 +10,7 @@
 %{--Profile Banner--}%
 <div class="container">
     <div class="fb-profile">
-        <img align="left" class="fb-image-profile thumbnail" src="${profile.profileImageLink}" alt="Profile Image"/>
+        %{--<img align="left" class="fb-image-profile thumbnail" src="${profile.profileImageLink}" alt="Profile Image"/>--}%
         <div class="fb-profile-text">
             <h1>${profile.firstName}</h1>
             <p><b>Country: </b>${profile.country}</p>
@@ -80,7 +80,7 @@
         <div class="col-md-8">
             <div class="widget-area no-padding blank">
                 <div class="status-upload">
-                    <g:form controller="comment" action="create">
+                    <g:form controller="comment" action="save">
                         <textarea placeholder="Say something to ${profile.firstName}?" ></textarea>
                         <button type="submit" class="btn btn-success green"><i class="fa fa-share"></i> Send</button>
                     </g:form>

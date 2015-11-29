@@ -6005,6 +6005,13 @@ body .no-padding {
 .status-upload form button > i {
   margin-right: 7px; }
 
+.container {
+  margin-top: 30px; }
+
+.filter-col {
+  padding-left: 10px;
+  padding-right: 10px; }
+
 .home-carousel {
   padding: 0; }
   .home-carousel .carousel-inner .item img {

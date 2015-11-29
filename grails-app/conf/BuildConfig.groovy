@@ -63,6 +63,8 @@ grails.project.dependency.resolution = {
         compile ':cache:1.1.8'
         compile ":asset-pipeline:2.1.5"
 
+        compile ":markdown:1.1.1"
+
         compile ':spring-security-core:2.0-RC4'
         compile ":joda-time:1.5"
         compile ":twitter-bootstrap:3.3.4"

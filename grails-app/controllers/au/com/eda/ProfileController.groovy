@@ -1,5 +1,6 @@
 package au.com.eda
 
+import grails.plugin.springsecurity.SpringSecurityService
 import grails.plugin.springsecurity.annotation.Secured
 import grails.transaction.Transactional
 
@@ -7,22 +8,14 @@ import grails.transaction.Transactional
 class ProfileController extends AbstractController {
 
     def index() {
-        if (!params.id) {
-            response.status = 404
-            return
-        }
-
-        Profile profile = Profile.get(params.id)
+        def user = springSecurityService.currentUser as User
+        Profile profile = user.getProfile()
         render(view: "index", model: [profile: profile])
     }
 
     def edit() {
-        if (!params.id) {
-            response.status = 404
-            return
-        }
-
-        Profile profile = Profile.get(params.id)
+        def user = springSecurityService.currentUser as User
+        Profile profile = user.getProfile()
         render(view: "edit", model:[profile: profile])
     }
 

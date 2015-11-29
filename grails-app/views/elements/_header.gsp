@@ -40,8 +40,8 @@
                             <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">View Stories</a></li>
-                            <li><a href="#">Edit Profile</a></li>
+                            <li><g:link controller="story" action="list">View Stories</g:link></li>
+                            <li><g:link controller="profile" action="edit">Edit Profile</g:link></li>
                             <li role="separator" class="divider"></li>
                             <li><g:link controller="logout"><strong>Logout</strong></g:link></li>
                         </ul>
