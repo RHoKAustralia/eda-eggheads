@@ -5890,3 +5890,12 @@ footer {
 .new-account {
   text-align: center;
   margin-bottom: 48px; }
+
+.home-carousel {
+  padding: 0; }
+  .home-carousel .carousel-inner .item img {
+    margin: 0 auto; }
+    @media (min-width: 768px) {
+      .home-carousel .carousel-inner .item img {
+        width: auto;
+        height: 540px; } }

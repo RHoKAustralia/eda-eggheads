@@ -1,0 +1,16 @@
+.home-carousel {
+  padding: 0;
+
+  .carousel-inner {
+    .item {
+      img {
+        margin: 0 auto;
+
+        @include media(sm) {
+          width: auto;
+          height: 540px;
+        }
+      }
+    }
+  }
+}
