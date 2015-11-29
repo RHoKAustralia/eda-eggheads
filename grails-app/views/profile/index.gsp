@@ -59,7 +59,7 @@
                     <div class="media">
                         <p class="pull-right"><small><g:formatDate format="HH:mm 'on' dd/MM/yyyy" date="${it.created}"/></small></p>
                         <a class="media-left" href="#">
-                            <img src="${it.author.profile.profileImageLink}">
+                            <img src="${profile.profileImageLink}">
                         </a>
                         <div class="media-body">
                             <h4 class="media-heading user_name">${it.author.profile.firstName}</h4>

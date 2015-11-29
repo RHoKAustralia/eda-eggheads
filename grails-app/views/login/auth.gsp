@@ -9,7 +9,7 @@
 <div id='login'>
     %{-- Borrowed from Spring Security--}%
     <div class='inner'>
-        <div class='fheader'>Hi there</div>
+        <div class='fheader'>Members Only</div>
 
         <form action='/eda-eggheads/j_spring_security_check' method='POST' id='loginForm' class='cssform'
               autocomplete='off'>
