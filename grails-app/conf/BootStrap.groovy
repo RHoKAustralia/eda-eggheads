@@ -10,6 +10,7 @@ import au.com.eda.UserType
 import au.com.eda.Role
 import au.com.eda.Faq
 import au.com.eda.UserRole
+import au.com.eda.Comment
 import org.joda.time.DateTime
 
 class BootStrap {
@@ -45,7 +46,11 @@ class BootStrap {
                 ).save(failOnError: true)
 
 
-                new Story(title: "Test", description: "This is a story", user: adminUser, mode: StoryMode.ACTIVE).save(failOnError: true)
+                Story story = new Story(title: "Test", description: "This is a story", profile: profile, mode: StoryMode.ACTIVE).save(failOnError: true)
+
+                new Comment(story: story, author: adminUser, comment: "Test comment 1").save(failOnError: true)
+                new Comment(story: story, author: adminUser, comment: "Test comment 2").save(failOnError: true)
+                new Comment(story: story, author: adminUser, comment: "Test comment 3").save(failOnError: true)
 
                 new Faq(question: "Test question 1", answer: "Test answer 1").save(failOnError: true)
                 new Faq(question: "Test question 2", answer: "Test answer 2").save(failOnError: true)

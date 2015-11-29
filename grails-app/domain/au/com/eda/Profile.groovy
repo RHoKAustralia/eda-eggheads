@@ -13,7 +13,7 @@ class Profile {
     State state
     Country country
     File profileImage
-    Integer children
+    Integer children = 0
 
     UserType type
     RecipientSubType recipientSubType
@@ -23,9 +23,21 @@ class Profile {
         profileImage nullable: true
     }
 
-    static transients = ['profileImageLink']
+    static transients = ['profileImageLink', 'story', 'comments', 'numberOfComments']
 
     String getProfileImageLink() {
-        return "${Constants.UPLOAD_BASE_URL}${profileImage.path}"
+        return "${Constants.UPLOAD_BASE_URL}${profileImage?.path}"
+    }
+
+    Story getStory() {
+        return Story.findByProfile(this)
+    }
+
+    List<Comment> getComments() {
+        return Comment.findAllByStory(getStory())
+    }
+
+    int getNumberOfComments() {
+        return getComments().size()
     }
 }

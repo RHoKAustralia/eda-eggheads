@@ -4,7 +4,7 @@ import org.joda.time.DateTime
 
 class Story {
 
-    User user
+    Profile profile
     String title
     String description
     Date created = DateTime.now().toDate()
