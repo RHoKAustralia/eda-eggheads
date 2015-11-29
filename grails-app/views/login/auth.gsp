@@ -29,7 +29,7 @@
             </p>
 
             <p>
-                <input type='submit' id="submit" value='Login'/>
+                <input type='submit' id="submit" value='Login' class="btn btn-default"/>
             </p>
         </form>
 

@@ -10,7 +10,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <g:link controller="home" action="index" class="navbar-brand">Egg Donation Australia</g:link>
+            <g:link controller="home" action="index" class="navbar-brand">
+                <g:img dir="images" file="favicon.png"/><h3>Egg Donation Australia</h3>
+            </g:link>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->

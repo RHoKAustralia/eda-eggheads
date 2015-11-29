@@ -15,10 +15,8 @@
                     <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
                     <li data-target="#home-carousel" data-slide-to="1"></li>
                     <li data-target="#home-carousel" data-slide-to="2"></li>
-                    <li data-target="#home-carousel" data-slide-to="3"></li>
                 </ol>
 
-                <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
                         <g:link controller="register" action="new">
@@ -33,11 +31,10 @@
                     </div>
 
                     <div class="item">
-                        <img src="http://placehold.it/1200x900" alt="Placeholder">
-                    </div>
+                        <g:link controller="register" action="new">
+                            <g:img dir="images" file="stats.png" alt="Stats"/>
+                        </g:link>
 
-                    <div class="item">
-                        <img src="http://placehold.it/1200x900" alt="Placeholder">
                     </div>
                 </div>
 

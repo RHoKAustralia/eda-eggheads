@@ -3,9 +3,92 @@ html, body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+
+  font-family: 'Lato', sans-serif;
+  background-color: $background-color;
+}
+
+.navbar {
+  background-color: $header-background-color;
+  color: $header-font-color;
+
+  .navbar-brand {
+    font-family: 'Lato', sans-serif;
+    color: $header-font-color;
+
+    img {
+      margin: 0;
+      margin-top: -10px;
+      height: 24px;
+      display: inline-block;
+    }
+
+    h3 {
+      margin: 0;
+      display: inline-block;
+      padding-left: 12px;
+      padding-top: 8px;
+
+      font-size: 18px;
+
+      @include media(sm) {
+        font-size: 24px;
+        padding-top: 0;
+      }
+
+    }
+
+    li {
+      color: $header-font-color;
+    }
+  }
+}
+
+/* title */
+.navbar-default .navbar-brand {
+  color: $header-font-color;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: $header-font-color;
+}
+
+/* link */
+.navbar-default .navbar-nav > li > a {
+  color: $header-font-color;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: $header-font-color;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: $header-font-color;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: $header-font-color;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: $header-font-color;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: $header-font-color;
+  }
 }
 
 .content {
+  background-color: $background-color;
+
   padding-top: $content-padding;
 
   @include media(sm) {
@@ -14,6 +97,8 @@ html, body {
 }
 
 footer {
+  background-color: $background-color;
+
   text-align: center;
   padding: 15px;
 }
