@@ -33,7 +33,7 @@
 
                 <div class="col-sm-3">
                     <h4 class="pull-right">
-                        <small><em>${profile.story.lastModified}</em></small>
+                        <small><em><b>Last Modified:</b> <g:formatDate format="HH:mm 'on' dd/MM/yyyy" date="${profile.story.lastModified}"/></em></small>
                     </h4>
                 </div>
             </div>
@@ -57,7 +57,7 @@
 
                 <g:each in="${profile.comments}">
                     <div class="media">
-                        <p class="pull-right"><small>${it.created}</small></p>
+                        <p class="pull-right"><small><g:formatDate format="HH:mm 'on' dd/MM/yyyy" date="${it.created}"/></small></p>
                         <a class="media-left" href="#">
                             <img src="${it.author.profile.profileImageLink}">
                         </a>
@@ -80,10 +80,10 @@
         <div class="col-md-8">
             <div class="widget-area no-padding blank">
                 <div class="status-upload">
-                    <form>
+                    <g:form controller="comment" action="create">
                         <textarea placeholder="Say something to ${profile.firstName}?" ></textarea>
                         <button type="submit" class="btn btn-success green"><i class="fa fa-share"></i> Send</button>
-                    </form>
+                    </g:form>
                 </div>
             </div>
         </div>
