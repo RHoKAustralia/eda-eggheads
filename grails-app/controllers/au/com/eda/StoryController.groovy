@@ -15,7 +15,9 @@ class StoryController extends CrudController<Story> {
                 [mode: StoryMode.ACTIVE, status: UserStatus.ACTIVE],
                 [max: 20, sort: 'lastModified', order: 'desc'])
 
-        render(view: "index", model: [stories: stories])
+        int count = Story.count()
+
+        render(view: "index", model: [stories: stories, numberOfStories: count])
     }
 
     def get() {
@@ -29,7 +31,7 @@ class StoryController extends CrudController<Story> {
     }
 
     def index() {
-        // TODO SHow all here (for admin view)
+        // TODO Show all here (for admin view)
     }
 
     def create() {

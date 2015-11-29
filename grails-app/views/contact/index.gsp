@@ -9,7 +9,11 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-12">
-            Put a contact form in here
+            <h4>If you have any general enquiries, please email</h4>
+
+            <a href="mailto:info@eggdonationaustralia.com?Subject=Hi" target="_top" class="btn btn-success btn-large">
+                <i class="icon-white icon-envelope"></i> Email Us
+            </a>
         </div>
     </div>
 </div>

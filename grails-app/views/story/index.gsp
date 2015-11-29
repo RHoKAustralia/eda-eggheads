@@ -28,7 +28,7 @@
                             </div>
 
                             <button type="submit" class="btn btn-default filter-col">
-                                <span class="glyphicon glyphicon-search"></span> Search
+                                <span class="glyphicon glyphicon-search"></span> Apply
                             </button>
                         </div>
                     </form>
@@ -43,9 +43,8 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-1"></div>
 
-        <div class="col-md-6">
+        <div class="col-md-12">
             <div id="postlist">
 
                 <g:each in="${stories}">
@@ -55,12 +54,14 @@
                             <div class="text-center">
                                 <div class="row">
                                     <div class="col-sm-8">
-                                        <h3 class="pull-left">${it.title}</h3>
+                                        <h4 class="pull-left">
+                                            <small>${it.title}</small>
+                                        </h4>
                                     </div>
 
                                     <div class="col-sm-4">
                                         <h4 class="pull-right">
-                                            <small><em><b>Last Modified:</b> <g:formatDate format="HH:mm 'on' dd/MM/yyyy" date="${it.created}"/></em></small>
+                                            <small>${it.profile.firstName}</small>
                                         </h4>
                                     </div>
                                 </div>
@@ -68,27 +69,27 @@
                         </div>
 
                         <div class="panel-body">
-                            ${it.description}
+                            <markdown:renderHtml text="${it.description}"/>
                         </div>
 
                         <div class="panel-footer">
-                            <span class="label label-default">${it.profile.user.status}</span>
+                            <span class="label label-success">${it.profile.type}</span>
+                            <span class="label label-info">${it.profile.user.status}</span>
                             <span class="label label-default">${it.profile.suburb}</span>
+
+                            <span class="pull-right">
+                                <small><em><b>Last Modified:</b> <g:formatDate format="HH:mm 'on' dd/MM/yyyy" date="${it.created}"/></em></small>
+                            </span>
                         </div>
                     </div>
 
                 </g:each>
 
+                <g:paginate total="${numberOfStories}" controller="story" action="list"/>
+
             </div>
         </div>
 
-        <div class="col-md-1"></div>
-
-        <div class="col-md-3">
-        </div>
-
-        <div class="col-md-1">
-        </div>
     </div>
 </div>
 

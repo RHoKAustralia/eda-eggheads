@@ -9,7 +9,7 @@
 <div id='login'>
     %{-- Borrowed from Spring Security--}%
     <div class='inner'>
-        <div class='fheader'>Members Only</div>
+        <div class='fheader'>Login</div>
 
         <form action='/eda-eggheads/j_spring_security_check' method='POST' id='loginForm' class='cssform'
               autocomplete='off'>
@@ -24,7 +24,7 @@
             </p>
 
             <p id="remember_me_holder">
-                <label for='remember_me'>Remember me</label>
+                <label for='remember_me'>Remember</label>
                 <input type='checkbox' name='_spring_security_remember_me' id='remember_me'/>
             </p>
 
@@ -37,6 +37,7 @@
             <p>Don't have an account?</p>
             <g:link controller="register" action="new">Click here</g:link> to create an account
         </div>
+
     </div>
 </div>
 

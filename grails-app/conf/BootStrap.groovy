@@ -46,7 +46,12 @@ class BootStrap {
                 ).save(failOnError: true)
 
 
-                Story story = new Story(title: "Test", description: "This is a story", profile: profile, mode: StoryMode.ACTIVE).save(failOnError: true)
+                Story story = new Story(
+                        title: "My Story",
+                        description: "###Hi there!\n\nMy name is Ashley. I’m currently a donor. I’m 25 and I live on a rural property on the Central Coast of NSW.\n\n I was born and raised on the Southside of Chicago and moved to Australia about 5 years ago to be with my (now) husband. We got married on Halloween this year.My husband and I do not have any and do not wish to have any children which is what sparked my interest in becoming an egg donor. While having children has never been a desire of mine, I know it is something that some people desperately want in their life and I'd love to help that come true for someone else. \n\nI’ve completed two donor cycles and will be starting my third donation in December. \nMy first recipient is currently pregnant and due next year! My second recipient will be doing a FET soon.",
+                        profile: profile,
+                        mode: StoryMode.ACTIVE
+                ).save(failOnError: true)
 
                 new Comment(story: story, author: adminUser, comment: "Test comment 1").save(failOnError: true)
                 new Comment(story: story, author: adminUser, comment: "Test comment 2").save(failOnError: true)
