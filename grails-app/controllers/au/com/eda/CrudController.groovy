@@ -39,7 +39,6 @@ abstract class CrudController<T> extends AbstractController {
 
     @Transactional
     def save() {
-
     }
 
     @Transactional

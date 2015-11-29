@@ -11,7 +11,7 @@ class StoryController extends CrudController<Story> {
             params.sort = "lastModified"
         }
 
-        List<Story> stories = Story.findAll("from Story s where s.mode = :mode and s.user.status = :status",
+        List<Story> stories = Story.findAll("from Story s where s.mode = :mode and s.profile.user.status = :status",
                 [mode: StoryMode.ACTIVE, status: UserStatus.ACTIVE],
                 [max: 20, sort: 'lastModified', order: 'desc'])
 
