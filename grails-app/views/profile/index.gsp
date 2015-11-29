@@ -10,8 +10,7 @@
 %{--Profile Banner--}%
 <div class="container">
     <div class="fb-profile">
-        <img align="left" class="fb-image-profile thumbnail" src="" alt="Profile"/>
-        %{--<img align="left" class="fb-image-profile thumbnail" src="${profile.profileImageLink}" alt="Profile"/>--}%
+        <img align="left" class="fb-image-profile thumbnail" src="${profile.profileImageLink}" alt="Profile Image"/>
         <div class="fb-profile-text">
             <h1>${profile.firstName}</h1>
             <p><b>Country: </b>${profile.country}</p>
@@ -60,10 +59,10 @@
                     <div class="media">
                         <p class="pull-right"><small>${it.created}</small></p>
                         <a class="media-left" href="#">
-                            <img src="http://lorempixel.com/40/40/people/1/">
+                            <img src="${it.author.profile.profileImageLink}">
                         </a>
                         <div class="media-body">
-                            <h4 class="media-heading user_name">${it.author}</h4>
+                            <h4 class="media-heading user_name">${it.author.profile.firstName}</h4>
                             <p>${it.comment}</p>
                         </div>
                     </div>
