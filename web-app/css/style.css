@@ -5899,3 +5899,919 @@ footer {
       .home-carousel .carousel-inner .item img {
         width: auto;
         height: 540px; } }
+
+.faq-head h3 {
+  text-decoration: underline;
+  padding-bottom: 24px; }
+
+.faq-content .lst-kix_gqbpwnfvf03i-4 > li {
+  counter-increment: lst-ctn-kix_gqbpwnfvf03i-4; }
+.faq-content .lst-kix_dihygy2u8va5-3 > li {
+  counter-increment: lst-ctn-kix_dihygy2u8va5-3; }
+.faq-content ol.lst-kix_tfgeqdpu1urr-2.start {
+  counter-reset: lst-ctn-kix_tfgeqdpu1urr-2 0; }
+.faq-content ol.lst-kix_gqbpwnfvf03i-8.start {
+  counter-reset: lst-ctn-kix_gqbpwnfvf03i-8 0; }
+.faq-content .lst-kix_xdlql1gvl423-2 > li {
+  counter-increment: lst-ctn-kix_xdlql1gvl423-2; }
+.faq-content ul.lst-kix_d9q0il69looy-1 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_d9q0il69looy-0 {
+  list-style-type: none; }
+.faq-content .lst-kix_edvxqskk6a4r-3 > li:before {
+  content: "● "; }
+.faq-content .lst-kix_edvxqskk6a4r-2 > li:before {
+  content: "■ "; }
+.faq-content ul.lst-kix_d9q0il69looy-8 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_d9q0il69looy-7 {
+  list-style-type: none; }
+.faq-content .lst-kix_edvxqskk6a4r-1 > li:before {
+  content: "○ "; }
+.faq-content ul.lst-kix_d9q0il69looy-6 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_d9q0il69looy-5 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_r5vstddhkjhr-0 {
+  list-style-type: none; }
+.faq-content .lst-kix_tfgeqdpu1urr-4 > li {
+  counter-increment: lst-ctn-kix_tfgeqdpu1urr-4; }
+.faq-content ul.lst-kix_d9q0il69looy-4 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_r5vstddhkjhr-1 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_d9q0il69looy-3 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_r5vstddhkjhr-2 {
+  list-style-type: none; }
+.faq-content .lst-kix_edvxqskk6a4r-0 > li:before {
+  content: "● "; }
+.faq-content ul.lst-kix_d9q0il69looy-2 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_r5vstddhkjhr-3 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_gqbpwnfvf03i-2.start {
+  counter-reset: lst-ctn-kix_gqbpwnfvf03i-2 0; }
+.faq-content ol.lst-kix_tfgeqdpu1urr-8.start {
+  counter-reset: lst-ctn-kix_tfgeqdpu1urr-8 0; }
+.faq-content .lst-kix_nthkljcvltru-7 > li:before {
+  content: "-  "; }
+.faq-content .lst-kix_gqbpwnfvf03i-6 > li {
+  counter-increment: lst-ctn-kix_gqbpwnfvf03i-6; }
+.faq-content .lst-kix_nthkljcvltru-6 > li:before {
+  content: "-  "; }
+.faq-content .lst-kix_nthkljcvltru-8 > li:before {
+  content: "-  "; }
+.faq-content .lst-kix_dihygy2u8va5-1 > li {
+  counter-increment: lst-ctn-kix_dihygy2u8va5-1; }
+.faq-content ul.lst-kix_edvxqskk6a4r-5 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_edvxqskk6a4r-6 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_edvxqskk6a4r-7 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_edvxqskk6a4r-8 {
+  list-style-type: none; }
+.faq-content .lst-kix_nthkljcvltru-3 > li:before {
+  content: "-  "; }
+.faq-content ul.lst-kix_edvxqskk6a4r-1 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_9ha2cpzhz3j5-7 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_edvxqskk6a4r-2 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_9ha2cpzhz3j5-6 {
+  list-style-type: none; }
+.faq-content .lst-kix_nthkljcvltru-2 > li:before {
+  content: "-  "; }
+.faq-content .lst-kix_nthkljcvltru-4 > li:before {
+  content: "-  "; }
+.faq-content ul.lst-kix_edvxqskk6a4r-3 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_edvxqskk6a4r-4 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_9ha2cpzhz3j5-8 {
+  list-style-type: none; }
+.faq-content .lst-kix_nthkljcvltru-1 > li:before {
+  content: "-  "; }
+.faq-content .lst-kix_nthkljcvltru-5 > li:before {
+  content: "-  "; }
+.faq-content ul.lst-kix_9ha2cpzhz3j5-3 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_9ha2cpzhz3j5-2 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_9ha2cpzhz3j5-5 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_dihygy2u8va5-8.start {
+  counter-reset: lst-ctn-kix_dihygy2u8va5-8 0; }
+.faq-content ul.lst-kix_edvxqskk6a4r-0 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_9ha2cpzhz3j5-4 {
+  list-style-type: none; }
+.faq-content .lst-kix_tfgeqdpu1urr-6 > li {
+  counter-increment: lst-ctn-kix_tfgeqdpu1urr-6; }
+.faq-content .lst-kix_xdlql1gvl423-0 > li {
+  counter-increment: lst-ctn-kix_xdlql1gvl423-0; }
+.faq-content ul.lst-kix_awse1v26vjcw-8 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_awse1v26vjcw-7 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_tfgeqdpu1urr-8 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_awse1v26vjcw-6 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_tfgeqdpu1urr-7 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_awse1v26vjcw-5 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_awse1v26vjcw-4 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_awse1v26vjcw-3 {
+  list-style-type: none; }
+.faq-content .lst-kix_w8p8touoyiip-8 > li:before {
+  content: "◆ "; }
+.faq-content ol.lst-kix_tfgeqdpu1urr-4 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_awse1v26vjcw-2 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_tfgeqdpu1urr-3 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_awse1v26vjcw-1 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_tfgeqdpu1urr-6 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_awse1v26vjcw-0 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_tfgeqdpu1urr-5 {
+  list-style-type: none; }
+.faq-content .lst-kix_w8p8touoyiip-6 > li:before {
+  content: "■ "; }
+.faq-content ol.lst-kix_tfgeqdpu1urr-0 {
+  list-style-type: none; }
+.faq-content .lst-kix_w8p8touoyiip-5 > li:before {
+  content: "➢ "; }
+.faq-content .lst-kix_w8p8touoyiip-7 > li:before {
+  content: "● "; }
+.faq-content ul.lst-kix_9ha2cpzhz3j5-1 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_tfgeqdpu1urr-2 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_9ha2cpzhz3j5-0 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_tfgeqdpu1urr-1 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_dihygy2u8va5-2.start {
+  counter-reset: lst-ctn-kix_dihygy2u8va5-2 0; }
+.faq-content .lst-kix_r5vstddhkjhr-3 > li:before {
+  content: "● "; }
+.faq-content .lst-kix_r5vstddhkjhr-4 > li:before {
+  content: "○ "; }
+.faq-content .lst-kix_gqbpwnfvf03i-2 > li {
+  counter-increment: lst-ctn-kix_gqbpwnfvf03i-2; }
+.faq-content .lst-kix_gqbpwnfvf03i-8 > li {
+  counter-increment: lst-ctn-kix_gqbpwnfvf03i-8; }
+.faq-content .lst-kix_r5vstddhkjhr-2 > li:before {
+  content: "■ "; }
+.faq-content .lst-kix_r5vstddhkjhr-1 > li:before {
+  content: "○ "; }
+.faq-content .lst-kix_r5vstddhkjhr-0 > li:before {
+  content: "● "; }
+.faq-content ul.lst-kix_py8a1jsq1fdt-3 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_r5vstddhkjhr-4 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_py8a1jsq1fdt-4 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_r5vstddhkjhr-5 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_py8a1jsq1fdt-5 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_r5vstddhkjhr-6 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_py8a1jsq1fdt-6 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_r5vstddhkjhr-7 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_tfgeqdpu1urr-1.start {
+  counter-reset: lst-ctn-kix_tfgeqdpu1urr-1 0; }
+.faq-content ul.lst-kix_py8a1jsq1fdt-7 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_r5vstddhkjhr-8 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_py8a1jsq1fdt-8 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_dihygy2u8va5-3.start {
+  counter-reset: lst-ctn-kix_dihygy2u8va5-3 0; }
+.faq-content .lst-kix_5riwqe7wlirp-5 > li:before {
+  content: "-  "; }
+.faq-content .lst-kix_jhoggjwwzniz-5 > li:before {
+  content: "■ "; }
+.faq-content .lst-kix_r5vstddhkjhr-5 > li:before {
+  content: "■ "; }
+.faq-content .lst-kix_w8p8touoyiip-2 > li:before {
+  content: "■ "; }
+.faq-content .lst-kix_w8p8touoyiip-3 > li:before {
+  content: "● "; }
+.faq-content .lst-kix_jhoggjwwzniz-4 > li:before {
+  content: "○ "; }
+.faq-content .lst-kix_jhoggjwwzniz-6 > li:before {
+  content: "● "; }
+.faq-content .lst-kix_dihygy2u8va5-5 > li {
+  counter-increment: lst-ctn-kix_dihygy2u8va5-5; }
+.faq-content .lst-kix_w8p8touoyiip-0 > li:before {
+  content: "❖ "; }
+.faq-content .lst-kix_w8p8touoyiip-1 > li:before {
+  content: "➢ "; }
+.faq-content .lst-kix_w8p8touoyiip-4 > li:before {
+  content: "◆ "; }
+.faq-content .lst-kix_5riwqe7wlirp-6 > li:before {
+  content: "-  "; }
+.faq-content .lst-kix_r5vstddhkjhr-6 > li:before {
+  content: "● "; }
+.faq-content ol.lst-kix_gqbpwnfvf03i-7.start {
+  counter-reset: lst-ctn-kix_gqbpwnfvf03i-7 0; }
+.faq-content .lst-kix_5riwqe7wlirp-7 > li:before {
+  content: "-  "; }
+.faq-content .lst-kix_5riwqe7wlirp-8 > li:before {
+  content: "-  "; }
+.faq-content .lst-kix_jhoggjwwzniz-8 > li:before {
+  content: "■ "; }
+.faq-content .lst-kix_jhoggjwwzniz-7 > li:before {
+  content: "○ "; }
+.faq-content .lst-kix_r5vstddhkjhr-7 > li:before {
+  content: "○ "; }
+.faq-content ul.lst-kix_py8a1jsq1fdt-0 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_py8a1jsq1fdt-1 {
+  list-style-type: none; }
+.faq-content .lst-kix_r5vstddhkjhr-8 > li:before {
+  content: "■ "; }
+.faq-content ul.lst-kix_py8a1jsq1fdt-2 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_tfgeqdpu1urr-7.start {
+  counter-reset: lst-ctn-kix_tfgeqdpu1urr-7 0; }
+.faq-content ol.lst-kix_dihygy2u8va5-4.start {
+  counter-reset: lst-ctn-kix_dihygy2u8va5-4 0; }
+.faq-content ol.lst-kix_gqbpwnfvf03i-1.start {
+  counter-reset: lst-ctn-kix_gqbpwnfvf03i-1 0; }
+.faq-content .lst-kix_jhoggjwwzniz-2 > li:before {
+  content: "■ "; }
+.faq-content .lst-kix_d9q0il69looy-0 > li:before {
+  content: "● "; }
+.faq-content .lst-kix_9ha2cpzhz3j5-7 > li:before {
+  content: "-  "; }
+.faq-content .lst-kix_5riwqe7wlirp-4 > li:before {
+  content: "-  "; }
+.faq-content ol.lst-kix_xdlql1gvl423-0.start {
+  counter-reset: lst-ctn-kix_xdlql1gvl423-0 0; }
+.faq-content .lst-kix_9ha2cpzhz3j5-5 > li:before {
+  content: "-  "; }
+.faq-content .lst-kix_5riwqe7wlirp-2 > li:before {
+  content: "-  "; }
+.faq-content ol.lst-kix_xdlql1gvl423-8.start {
+  counter-reset: lst-ctn-kix_xdlql1gvl423-8 0; }
+.faq-content .lst-kix_5riwqe7wlirp-0 > li:before {
+  content: "-  "; }
+.faq-content .lst-kix_jhoggjwwzniz-0 > li:before {
+  content: "● "; }
+.faq-content .lst-kix_4p3sfwljesiu-8 > li:before {
+  content: "■ "; }
+.faq-content .lst-kix_xdlql1gvl423-8 > li {
+  counter-increment: lst-ctn-kix_xdlql1gvl423-8; }
+.faq-content ul.lst-kix_4p3sfwljesiu-2 {
+  list-style-type: none; }
+.faq-content .lst-kix_4p3sfwljesiu-6 > li:before {
+  content: "● "; }
+.faq-content .lst-kix_tfgeqdpu1urr-4 > li:before {
+  content: "" counter(lst-ctn-kix_tfgeqdpu1urr-4,lower-latin) ". "; }
+.faq-content ul.lst-kix_4p3sfwljesiu-3 {
+  list-style-type: none; }
+.faq-content .lst-kix_fw7zoqdh2k7a-3 > li:before {
+  content: "-  "; }
+.faq-content ul.lst-kix_4p3sfwljesiu-0 {
+  list-style-type: none; }
+.faq-content .lst-kix_dihygy2u8va5-5 > li:before {
+  content: "" counter(lst-ctn-kix_dihygy2u8va5-5,lower-roman) ". "; }
+.faq-content .lst-kix_dihygy2u8va5-7 > li:before {
+  content: "" counter(lst-ctn-kix_dihygy2u8va5-7,lower-latin) ". "; }
+.faq-content ul.lst-kix_4p3sfwljesiu-1 {
+  list-style-type: none; }
+.faq-content .lst-kix_gqbpwnfvf03i-8 > li:before {
+  content: "" counter(lst-ctn-kix_gqbpwnfvf03i-8,lower-roman) ". "; }
+.faq-content .lst-kix_tfgeqdpu1urr-6 > li:before {
+  content: "" counter(lst-ctn-kix_tfgeqdpu1urr-6,decimal) ". "; }
+.faq-content .lst-kix_fw7zoqdh2k7a-1 > li:before {
+  content: "-  "; }
+.faq-content .lst-kix_fw7zoqdh2k7a-5 > li:before {
+  content: "-  "; }
+.faq-content .lst-kix_py8a1jsq1fdt-2 > li:before {
+  content: "■ "; }
+.faq-content ol.lst-kix_tfgeqdpu1urr-6.start {
+  counter-reset: lst-ctn-kix_tfgeqdpu1urr-6 0; }
+.faq-content .lst-kix_tfgeqdpu1urr-8 > li:before {
+  content: "" counter(lst-ctn-kix_tfgeqdpu1urr-8,lower-roman) ". "; }
+.faq-content ul.lst-kix_4p3sfwljesiu-8 {
+  list-style-type: none; }
+.faq-content .lst-kix_dihygy2u8va5-1 > li:before {
+  content: "" counter(lst-ctn-kix_dihygy2u8va5-1,lower-latin) ". "; }
+.faq-content .lst-kix_fw7zoqdh2k7a-7 > li:before {
+  content: "-  "; }
+.faq-content .lst-kix_4p3sfwljesiu-4 > li:before {
+  content: "○ "; }
+.faq-content ul.lst-kix_4p3sfwljesiu-6 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_4p3sfwljesiu-7 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_4p3sfwljesiu-4 {
+  list-style-type: none; }
+.faq-content .lst-kix_py8a1jsq1fdt-4 > li:before {
+  content: "○ "; }
+.faq-content ul.lst-kix_4p3sfwljesiu-5 {
+  list-style-type: none; }
+.faq-content .lst-kix_tfgeqdpu1urr-0 > li {
+  counter-increment: lst-ctn-kix_tfgeqdpu1urr-0; }
+.faq-content .lst-kix_gqbpwnfvf03i-2 > li:before {
+  content: "" counter(lst-ctn-kix_gqbpwnfvf03i-2,lower-roman) ". "; }
+.faq-content .lst-kix_xdlql1gvl423-6 > li {
+  counter-increment: lst-ctn-kix_xdlql1gvl423-6; }
+.faq-content .lst-kix_gqbpwnfvf03i-4 > li:before {
+  content: "" counter(lst-ctn-kix_gqbpwnfvf03i-4,lower-latin) ". "; }
+.faq-content .lst-kix_py8a1jsq1fdt-6 > li:before {
+  content: "● "; }
+.faq-content .lst-kix_4p3sfwljesiu-2 > li:before {
+  content: "■ "; }
+.faq-content .lst-kix_gqbpwnfvf03i-6 > li:before {
+  content: "" counter(lst-ctn-kix_gqbpwnfvf03i-6,decimal) ". "; }
+.faq-content .lst-kix_dihygy2u8va5-3 > li:before {
+  content: "" counter(lst-ctn-kix_dihygy2u8va5-3,decimal) ". "; }
+.faq-content .lst-kix_gqbpwnfvf03i-0 > li {
+  counter-increment: lst-ctn-kix_gqbpwnfvf03i-0; }
+.faq-content .lst-kix_4p3sfwljesiu-0 > li:before {
+  content: "● "; }
+.faq-content .lst-kix_py8a1jsq1fdt-8 > li:before {
+  content: "■ "; }
+.faq-content .lst-kix_dihygy2u8va5-0 > li {
+  counter-increment: lst-ctn-kix_dihygy2u8va5-0; }
+.faq-content .lst-kix_xdlql1gvl423-0 > li:before {
+  content: "" counter(lst-ctn-kix_xdlql1gvl423-0,decimal) ". "; }
+.faq-content .lst-kix_gqbpwnfvf03i-7 > li {
+  counter-increment: lst-ctn-kix_gqbpwnfvf03i-7; }
+.faq-content .lst-kix_xdlql1gvl423-2 > li:before {
+  content: "" counter(lst-ctn-kix_xdlql1gvl423-2,lower-roman) ". "; }
+.faq-content .lst-kix_xdlql1gvl423-4 > li:before {
+  content: "" counter(lst-ctn-kix_xdlql1gvl423-4,lower-latin) ". "; }
+.faq-content ol.lst-kix_dihygy2u8va5-6.start {
+  counter-reset: lst-ctn-kix_dihygy2u8va5-6 0; }
+.faq-content .lst-kix_gqbpwnfvf03i-1 > li {
+  counter-increment: lst-ctn-kix_gqbpwnfvf03i-1; }
+.faq-content .lst-kix_dihygy2u8va5-6 > li {
+  counter-increment: lst-ctn-kix_dihygy2u8va5-6; }
+.faq-content ul.lst-kix_5riwqe7wlirp-0 {
+  list-style-type: none; }
+.faq-content .lst-kix_xdlql1gvl423-8 > li:before {
+  content: "" counter(lst-ctn-kix_xdlql1gvl423-8,lower-roman) ". "; }
+.faq-content ul.lst-kix_5riwqe7wlirp-2 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_5riwqe7wlirp-1 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_5riwqe7wlirp-4 {
+  list-style-type: none; }
+.faq-content .lst-kix_awse1v26vjcw-7 > li:before {
+  content: "○ "; }
+.faq-content .lst-kix_xdlql1gvl423-6 > li:before {
+  content: "" counter(lst-ctn-kix_xdlql1gvl423-6,decimal) ". "; }
+.faq-content ul.lst-kix_5riwqe7wlirp-3 {
+  list-style-type: none; }
+.faq-content .lst-kix_gqbpwnfvf03i-0 > li:before {
+  content: "" counter(lst-ctn-kix_gqbpwnfvf03i-0,decimal) ". "; }
+.faq-content ul.lst-kix_5riwqe7wlirp-6 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_5riwqe7wlirp-5 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_tfgeqdpu1urr-3.start {
+  counter-reset: lst-ctn-kix_tfgeqdpu1urr-3 0; }
+.faq-content .lst-kix_dihygy2u8va5-7 > li {
+  counter-increment: lst-ctn-kix_dihygy2u8va5-7; }
+.faq-content ol.lst-kix_gqbpwnfvf03i-3.start {
+  counter-reset: lst-ctn-kix_gqbpwnfvf03i-3 0; }
+.faq-content .lst-kix_9ha2cpzhz3j5-1 > li:before {
+  content: "-  "; }
+.faq-content .lst-kix_tfgeqdpu1urr-2 > li:before {
+  content: "" counter(lst-ctn-kix_tfgeqdpu1urr-2,lower-roman) ". "; }
+.faq-content .lst-kix_xdlql1gvl423-1 > li {
+  counter-increment: lst-ctn-kix_xdlql1gvl423-1; }
+.faq-content ul.lst-kix_5riwqe7wlirp-8 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_gqbpwnfvf03i-4.start {
+  counter-reset: lst-ctn-kix_gqbpwnfvf03i-4 0; }
+.faq-content .lst-kix_9ha2cpzhz3j5-3 > li:before {
+  content: "-  "; }
+.faq-content .lst-kix_tfgeqdpu1urr-0 > li:before {
+  content: "" counter(lst-ctn-kix_tfgeqdpu1urr-0,decimal) ". "; }
+.faq-content ul.lst-kix_5riwqe7wlirp-7 {
+  list-style-type: none; }
+.faq-content .lst-kix_xdlql1gvl423-7 > li {
+  counter-increment: lst-ctn-kix_xdlql1gvl423-7; }
+.faq-content ol.lst-kix_dihygy2u8va5-7.start {
+  counter-reset: lst-ctn-kix_dihygy2u8va5-7 0; }
+.faq-content .lst-kix_edvxqskk6a4r-4 > li:before {
+  content: "○ "; }
+.faq-content ul.lst-kix_nthkljcvltru-2 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_w8p8touoyiip-1 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_nthkljcvltru-3 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_w8p8touoyiip-0 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_tfgeqdpu1urr-4.start {
+  counter-reset: lst-ctn-kix_tfgeqdpu1urr-4 0; }
+.faq-content ul.lst-kix_nthkljcvltru-0 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_w8p8touoyiip-3 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_nthkljcvltru-1 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_w8p8touoyiip-2 {
+  list-style-type: none; }
+.faq-content .lst-kix_edvxqskk6a4r-6 > li:before {
+  content: "● "; }
+.faq-content ul.lst-kix_w8p8touoyiip-8 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_nthkljcvltru-8 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_nthkljcvltru-6 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_w8p8touoyiip-5 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_nthkljcvltru-7 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_w8p8touoyiip-4 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_nthkljcvltru-4 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_w8p8touoyiip-7 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_nthkljcvltru-5 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_w8p8touoyiip-6 {
+  list-style-type: none; }
+.faq-content .lst-kix_edvxqskk6a4r-8 > li:before {
+  content: "■ "; }
+.faq-content .lst-kix_tfgeqdpu1urr-5 > li {
+  counter-increment: lst-ctn-kix_tfgeqdpu1urr-5; }
+.faq-content ul.lst-kix_jkitlju8apag-8 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_jkitlju8apag-7 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_jkitlju8apag-4 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_jkitlju8apag-3 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_jkitlju8apag-6 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_jkitlju8apag-5 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_jkitlju8apag-0 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_tfgeqdpu1urr-5.start {
+  counter-reset: lst-ctn-kix_tfgeqdpu1urr-5 0; }
+.faq-content ul.lst-kix_jkitlju8apag-2 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_jkitlju8apag-1 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_gqbpwnfvf03i-5.start {
+  counter-reset: lst-ctn-kix_gqbpwnfvf03i-5 0; }
+.faq-content .lst-kix_dihygy2u8va5-4 > li {
+  counter-increment: lst-ctn-kix_dihygy2u8va5-4; }
+.faq-content .lst-kix_gqbpwnfvf03i-5 > li {
+  counter-increment: lst-ctn-kix_gqbpwnfvf03i-5; }
+.faq-content .lst-kix_jkitlju8apag-5 > li:before {
+  content: "■ "; }
+.faq-content .lst-kix_jkitlju8apag-4 > li:before {
+  content: "○ "; }
+.faq-content .lst-kix_jkitlju8apag-6 > li:before {
+  content: "● "; }
+.faq-content .lst-kix_jkitlju8apag-3 > li:before {
+  content: "● "; }
+.faq-content .lst-kix_jkitlju8apag-7 > li:before {
+  content: "○ "; }
+.faq-content .lst-kix_gqbpwnfvf03i-3 > li {
+  counter-increment: lst-ctn-kix_gqbpwnfvf03i-3; }
+.faq-content .lst-kix_tfgeqdpu1urr-3 > li {
+  counter-increment: lst-ctn-kix_tfgeqdpu1urr-3; }
+.faq-content .lst-kix_awse1v26vjcw-4 > li:before {
+  content: "○ "; }
+.faq-content .lst-kix_awse1v26vjcw-5 > li:before {
+  content: "■ "; }
+.faq-content ol.lst-kix_xdlql1gvl423-0 {
+  list-style-type: none; }
+.faq-content .lst-kix_awse1v26vjcw-3 > li:before {
+  content: "● "; }
+.faq-content .lst-kix_jkitlju8apag-1 > li:before {
+  content: "○ "; }
+.faq-content ol.lst-kix_xdlql1gvl423-6 {
+  list-style-type: none; }
+.faq-content .lst-kix_awse1v26vjcw-0 > li:before {
+  content: "● "; }
+.faq-content .lst-kix_awse1v26vjcw-1 > li:before {
+  content: "○ "; }
+.faq-content ol.lst-kix_xdlql1gvl423-5 {
+  list-style-type: none; }
+.faq-content .lst-kix_jkitlju8apag-0 > li:before {
+  content: "● "; }
+.faq-content .lst-kix_jkitlju8apag-2 > li:before {
+  content: "■ "; }
+.faq-content ol.lst-kix_xdlql1gvl423-8 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_xdlql1gvl423-7 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_xdlql1gvl423-2 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_dihygy2u8va5-5.start {
+  counter-reset: lst-ctn-kix_dihygy2u8va5-5 0; }
+.faq-content .lst-kix_awse1v26vjcw-2 > li:before {
+  content: "■ "; }
+.faq-content ol.lst-kix_xdlql1gvl423-1 {
+  list-style-type: none; }
+.faq-content .lst-kix_xdlql1gvl423-3 > li {
+  counter-increment: lst-ctn-kix_xdlql1gvl423-3; }
+.faq-content ol.lst-kix_xdlql1gvl423-4 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_xdlql1gvl423-3 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_jhoggjwwzniz-0 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_dihygy2u8va5-0 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_dihygy2u8va5-1 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_jhoggjwwzniz-2 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_jhoggjwwzniz-1 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_xdlql1gvl423-2.start {
+  counter-reset: lst-ctn-kix_xdlql1gvl423-2 0; }
+.faq-content ol.lst-kix_dihygy2u8va5-8 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_fw7zoqdh2k7a-5 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_fw7zoqdh2k7a-4 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_dihygy2u8va5-6 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_fw7zoqdh2k7a-7 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_tfgeqdpu1urr-0.start {
+  counter-reset: lst-ctn-kix_tfgeqdpu1urr-0 0; }
+.faq-content ol.lst-kix_dihygy2u8va5-7 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_fw7zoqdh2k7a-6 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_dihygy2u8va5-4 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_dihygy2u8va5-5 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_gqbpwnfvf03i-8 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_fw7zoqdh2k7a-8 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_dihygy2u8va5-2 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_xdlql1gvl423-6.start {
+  counter-reset: lst-ctn-kix_xdlql1gvl423-6 0; }
+.faq-content ol.lst-kix_dihygy2u8va5-3 {
+  list-style-type: none; }
+.faq-content .lst-kix_tfgeqdpu1urr-7 > li {
+  counter-increment: lst-ctn-kix_tfgeqdpu1urr-7; }
+.faq-content ol.lst-kix_gqbpwnfvf03i-0.start {
+  counter-reset: lst-ctn-kix_gqbpwnfvf03i-0 0; }
+.faq-content ol.lst-kix_gqbpwnfvf03i-6.start {
+  counter-reset: lst-ctn-kix_gqbpwnfvf03i-6 0; }
+.faq-content .lst-kix_xdlql1gvl423-5 > li {
+  counter-increment: lst-ctn-kix_xdlql1gvl423-5; }
+.faq-content .lst-kix_jkitlju8apag-8 > li:before {
+  content: "■ "; }
+.faq-content .lst-kix_py8a1jsq1fdt-1 > li:before {
+  content: "○ "; }
+.faq-content .lst-kix_tfgeqdpu1urr-1 > li {
+  counter-increment: lst-ctn-kix_tfgeqdpu1urr-1; }
+.faq-content .lst-kix_py8a1jsq1fdt-0 > li:before {
+  content: "● "; }
+.faq-content .lst-kix_d9q0il69looy-8 > li:before {
+  content: "■ "; }
+.faq-content .lst-kix_d9q0il69looy-7 > li:before {
+  content: "○ "; }
+.faq-content ol.lst-kix_gqbpwnfvf03i-5 {
+  list-style-type: none; }
+.faq-content .lst-kix_d9q0il69looy-6 > li:before {
+  content: "● "; }
+.faq-content ol.lst-kix_gqbpwnfvf03i-4 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_gqbpwnfvf03i-7 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_xdlql1gvl423-1.start {
+  counter-reset: lst-ctn-kix_xdlql1gvl423-1 0; }
+.faq-content ol.lst-kix_gqbpwnfvf03i-6 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_gqbpwnfvf03i-1 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_gqbpwnfvf03i-0 {
+  list-style-type: none; }
+.faq-content ol.lst-kix_xdlql1gvl423-7.start {
+  counter-reset: lst-ctn-kix_xdlql1gvl423-7 0; }
+.faq-content .lst-kix_dihygy2u8va5-8 > li {
+  counter-increment: lst-ctn-kix_dihygy2u8va5-8; }
+.faq-content ol.lst-kix_gqbpwnfvf03i-3 {
+  list-style-type: none; }
+.faq-content .lst-kix_d9q0il69looy-5 > li:before {
+  content: "■ "; }
+.faq-content ol.lst-kix_gqbpwnfvf03i-2 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_jhoggjwwzniz-8 {
+  list-style-type: none; }
+.faq-content .lst-kix_d9q0il69looy-2 > li:before {
+  content: "■ "; }
+.faq-content ul.lst-kix_jhoggjwwzniz-7 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_jhoggjwwzniz-4 {
+  list-style-type: none; }
+.faq-content .lst-kix_d9q0il69looy-4 > li:before {
+  content: "○ "; }
+.faq-content ul.lst-kix_jhoggjwwzniz-3 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_jhoggjwwzniz-6 {
+  list-style-type: none; }
+.faq-content .lst-kix_d9q0il69looy-3 > li:before {
+  content: "● "; }
+.faq-content ul.lst-kix_jhoggjwwzniz-5 {
+  list-style-type: none; }
+.faq-content .lst-kix_dihygy2u8va5-2 > li {
+  counter-increment: lst-ctn-kix_dihygy2u8va5-2; }
+.faq-content .lst-kix_d9q0il69looy-1 > li:before {
+  content: "○ "; }
+.faq-content .lst-kix_jhoggjwwzniz-3 > li:before {
+  content: "● "; }
+.faq-content ol.lst-kix_dihygy2u8va5-1.start {
+  counter-reset: lst-ctn-kix_dihygy2u8va5-1 0; }
+.faq-content .lst-kix_5riwqe7wlirp-3 > li:before {
+  content: "-  "; }
+.faq-content .lst-kix_9ha2cpzhz3j5-6 > li:before {
+  content: "-  "; }
+.faq-content .lst-kix_jhoggjwwzniz-1 > li:before {
+  content: "○ "; }
+.faq-content .lst-kix_5riwqe7wlirp-1 > li:before {
+  content: "-  "; }
+.faq-content .lst-kix_9ha2cpzhz3j5-8 > li:before {
+  content: "-  "; }
+.faq-content .lst-kix_dihygy2u8va5-6 > li:before {
+  content: "" counter(lst-ctn-kix_dihygy2u8va5-6,decimal) ". "; }
+.faq-content .lst-kix_fw7zoqdh2k7a-2 > li:before {
+  content: "-  "; }
+.faq-content ol.lst-kix_xdlql1gvl423-3.start {
+  counter-reset: lst-ctn-kix_xdlql1gvl423-3 0; }
+.faq-content .lst-kix_4p3sfwljesiu-5 > li:before {
+  content: "■ "; }
+.faq-content .lst-kix_4p3sfwljesiu-7 > li:before {
+  content: "○ "; }
+.faq-content .lst-kix_tfgeqdpu1urr-5 > li:before {
+  content: "" counter(lst-ctn-kix_tfgeqdpu1urr-5,lower-roman) ". "; }
+.faq-content .lst-kix_fw7zoqdh2k7a-0 > li:before {
+  content: "-  "; }
+.faq-content .lst-kix_fw7zoqdh2k7a-4 > li:before {
+  content: "-  "; }
+.faq-content .lst-kix_gqbpwnfvf03i-7 > li:before {
+  content: "" counter(lst-ctn-kix_gqbpwnfvf03i-7,lower-latin) ". "; }
+.faq-content ol.lst-kix_xdlql1gvl423-5.start {
+  counter-reset: lst-ctn-kix_xdlql1gvl423-5 0; }
+.faq-content .lst-kix_dihygy2u8va5-2 > li:before {
+  content: "" counter(lst-ctn-kix_dihygy2u8va5-2,lower-roman) ". "; }
+.faq-content .lst-kix_fw7zoqdh2k7a-6 > li:before {
+  content: "-  "; }
+.faq-content .lst-kix_4p3sfwljesiu-3 > li:before {
+  content: "● "; }
+.faq-content .lst-kix_tfgeqdpu1urr-7 > li:before {
+  content: "" counter(lst-ctn-kix_tfgeqdpu1urr-7,lower-latin) ". "; }
+.faq-content .lst-kix_py8a1jsq1fdt-3 > li:before {
+  content: "● "; }
+.faq-content .lst-kix_dihygy2u8va5-0 > li:before {
+  content: "" counter(lst-ctn-kix_dihygy2u8va5-0,decimal) ". "; }
+.faq-content .lst-kix_dihygy2u8va5-8 > li:before {
+  content: "" counter(lst-ctn-kix_dihygy2u8va5-8,lower-roman) ". "; }
+.faq-content .lst-kix_py8a1jsq1fdt-5 > li:before {
+  content: "■ "; }
+.faq-content .lst-kix_py8a1jsq1fdt-7 > li:before {
+  content: "○ "; }
+.faq-content ul.lst-kix_fw7zoqdh2k7a-1 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_fw7zoqdh2k7a-0 {
+  list-style-type: none; }
+.faq-content .lst-kix_gqbpwnfvf03i-3 > li:before {
+  content: "" counter(lst-ctn-kix_gqbpwnfvf03i-3,decimal) ". "; }
+.faq-content ul.lst-kix_fw7zoqdh2k7a-3 {
+  list-style-type: none; }
+.faq-content ul.lst-kix_fw7zoqdh2k7a-2 {
+  list-style-type: none; }
+.faq-content .lst-kix_4p3sfwljesiu-1 > li:before {
+  content: "○ "; }
+.faq-content .lst-kix_dihygy2u8va5-4 > li:before {
+  content: "" counter(lst-ctn-kix_dihygy2u8va5-4,lower-latin) ". "; }
+.faq-content .lst-kix_gqbpwnfvf03i-5 > li:before {
+  content: "" counter(lst-ctn-kix_gqbpwnfvf03i-5,lower-roman) ". "; }
+.faq-content .lst-kix_tfgeqdpu1urr-2 > li {
+  counter-increment: lst-ctn-kix_tfgeqdpu1urr-2; }
+.faq-content .lst-kix_xdlql1gvl423-3 > li:before {
+  content: "" counter(lst-ctn-kix_xdlql1gvl423-3,decimal) ". "; }
+.faq-content .lst-kix_nthkljcvltru-0 > li:before {
+  content: "-  "; }
+.faq-content .lst-kix_tfgeqdpu1urr-8 > li {
+  counter-increment: lst-ctn-kix_tfgeqdpu1urr-8; }
+.faq-content .lst-kix_awse1v26vjcw-6 > li:before {
+  content: "● "; }
+.faq-content .lst-kix_xdlql1gvl423-5 > li:before {
+  content: "" counter(lst-ctn-kix_xdlql1gvl423-5,lower-roman) ". "; }
+.faq-content .lst-kix_gqbpwnfvf03i-1 > li:before {
+  content: "" counter(lst-ctn-kix_gqbpwnfvf03i-1,lower-latin) ". "; }
+.faq-content .lst-kix_xdlql1gvl423-7 > li:before {
+  content: "" counter(lst-ctn-kix_xdlql1gvl423-7,lower-latin) ". "; }
+.faq-content .lst-kix_fw7zoqdh2k7a-8 > li:before {
+  content: "-  "; }
+.faq-content .lst-kix_awse1v26vjcw-8 > li:before {
+  content: "■ "; }
+.faq-content .lst-kix_tfgeqdpu1urr-3 > li:before {
+  content: "" counter(lst-ctn-kix_tfgeqdpu1urr-3,decimal) ". "; }
+.faq-content .lst-kix_9ha2cpzhz3j5-2 > li:before {
+  content: "-  "; }
+.faq-content .lst-kix_tfgeqdpu1urr-1 > li:before {
+  content: "" counter(lst-ctn-kix_tfgeqdpu1urr-1,lower-latin) ". "; }
+.faq-content .lst-kix_xdlql1gvl423-4 > li {
+  counter-increment: lst-ctn-kix_xdlql1gvl423-4; }
+.faq-content .lst-kix_9ha2cpzhz3j5-4 > li:before {
+  content: "-  "; }
+.faq-content .lst-kix_edvxqskk6a4r-5 > li:before {
+  content: "■ "; }
+.faq-content ol.lst-kix_dihygy2u8va5-0.start {
+  counter-reset: lst-ctn-kix_dihygy2u8va5-0 0; }
+.faq-content .lst-kix_edvxqskk6a4r-7 > li:before {
+  content: "○ "; }
+.faq-content .lst-kix_xdlql1gvl423-1 > li:before {
+  content: "" counter(lst-ctn-kix_xdlql1gvl423-1,lower-latin) ". "; }
+.faq-content ol.lst-kix_xdlql1gvl423-4.start {
+  counter-reset: lst-ctn-kix_xdlql1gvl423-4 0; }
+.faq-content .lst-kix_9ha2cpzhz3j5-0 > li:before {
+  content: "-  "; }
+.faq-content ol {
+  margin: 0;
+  padding: 0; }
+.faq-content .c1 {
+  margin-left: 36pt;
+  orphans: 2;
+  widows: 2;
+  padding-left: 0pt;
+  direction: ltr; }
+.faq-content .c14 {
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+  line-height: 1.15;
+  text-align: left; }
+.faq-content .c3 {
+  orphans: 2;
+  widows: 2;
+  direction: ltr;
+  height: 11pt; }
+.faq-content .c4 {
+  orphans: 2;
+  widows: 2;
+  direction: ltr; }
+.faq-content .c11 {
+  background-color: #ffffff;
+  max-width: 468pt;
+  padding: 72pt 72pt 72pt 72pt; }
+.faq-content .c2 {
+  background-color: #ffffff;
+  color: #222222; }
+.faq-content .c10 {
+  padding: 0;
+  margin: 0; }
+.faq-content .c8 {
+  font-style: italic;
+  color: #222222; }
+.faq-content .c6 {
+  font-style: italic;
+  text-decoration: underline; }
+.faq-content .c12 {
+  font-style: italic; }
+.faq-content .c13 {
+  text-align: center; }
+.faq-content .c9 {
+  margin-left: 36pt; }
+.faq-content .c0 {
+  font-size: 10pt; }
+.faq-content .c15 {
+  color: #222222; }
+.faq-content .c5 {
+  font-weight: bold; }
+.faq-content .c7 {
+  text-decoration: underline; }
+.faq-content .title {
+  padding-top: 0pt;
+  color: #000000;
+  font-size: 21pt;
+  padding-bottom: 0pt;
+  font-family: "Trebuchet MS";
+  line-height: 1.15;
+  page-break-after: avoid;
+  orphans: 2;
+  widows: 2;
+  text-align: left; }
+.faq-content .subtitle {
+  padding-top: 0pt;
+  color: #666666;
+  font-size: 13pt;
+  padding-bottom: 10pt;
+  font-family: "Trebuchet MS";
+  line-height: 1.15;
+  page-break-after: avoid;
+  font-style: italic;
+  orphans: 2;
+  widows: 2;
+  text-align: left; }
+.faq-content li {
+  color: #000000;
+  font-size: 11pt;
+  font-family: "Arial"; }
+.faq-content p {
+  margin: 0;
+  color: #000000;
+  font-size: 11pt;
+  font-family: "Arial"; }
+.faq-content h1 {
+  padding-top: 10pt;
+  color: #000000;
+  font-size: 16pt;
+  padding-bottom: 0pt;
+  font-family: "Trebuchet MS";
+  line-height: 1.15;
+  page-break-after: avoid;
+  orphans: 2;
+  widows: 2;
+  text-align: left; }
+.faq-content h2 {
+  padding-top: 10pt;
+  color: #000000;
+  font-weight: bold;
+  font-size: 13pt;
+  padding-bottom: 0pt;
+  font-family: "Trebuchet MS";
+  line-height: 1.15;
+  page-break-after: avoid;
+  orphans: 2;
+  widows: 2;
+  text-align: left; }
+.faq-content h3 {
+  padding-top: 8pt;
+  color: #666666;
+  font-weight: bold;
+  font-size: 12pt;
+  padding-bottom: 0pt;
+  font-family: "Trebuchet MS";
+  line-height: 1.15;
+  page-break-after: avoid;
+  orphans: 2;
+  widows: 2;
+  text-align: left; }
+.faq-content h4 {
+  padding-top: 8pt;
+  color: #666666;
+  text-decoration: underline;
+  font-size: 11pt;
+  padding-bottom: 0pt;
+  font-family: "Trebuchet MS";
+  line-height: 1.15;
+  page-break-after: avoid;
+  orphans: 2;
+  widows: 2;
+  text-align: left; }
+.faq-content h5 {
+  padding-top: 8pt;
+  color: #666666;
+  font-size: 11pt;
+  padding-bottom: 0pt;
+  font-family: "Trebuchet MS";
+  line-height: 1.15;
+  page-break-after: avoid;
+  orphans: 2;
+  widows: 2;
+  text-align: left; }
+.faq-content h6 {
+  padding-top: 8pt;
+  color: #666666;
+  font-size: 11pt;
+  padding-bottom: 0pt;
+  font-family: "Trebuchet MS";
+  line-height: 1.15;
+  page-break-after: avoid;
+  font-style: italic;
+  orphans: 2;
+  widows: 2;
+  text-align: left; }

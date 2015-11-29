@@ -41,9 +41,5 @@
         src="${resource(dir: 'bootstrap/javascripts', file: 'bootstrap-sprockets.js')}"></script>
 <script type="application/javascript"
         src="${resource(dir: 'bootstrap/javascripts/bootstrap', file: 'carousel.js')}"></script>
-
-%{--<script type="application/javascript" src="${resource(dir: 'bootstrap/javascripts/bootstrap', file: 'button.js')}"></script>--}%
-%{--<script type="application/javascript" src="${resource(dir: 'bootstrap/javascripts/bootstrap', file: 'collapse.js')}"></script>--}%
-%{--<script type="application/javascript" src="${resource(dir: 'bootstrap/javascripts/bootstrap', file: 'dropdown.js')}"></script>--}%
 </body>
 </html>

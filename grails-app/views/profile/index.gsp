@@ -11,7 +11,7 @@
 <div class="container">
     <div class="fb-profile">
         <img align="left" class="fb-image-profile thumbnail" src="" alt="Profile"/>
-        %{--<img align="left" class="fb-image-profile thumbnail" src="${profile.profileImageLink}" alt="Profile"/>--}%
+        <img align="left" class="fb-image-profile thumbnail" src="${profile.profileImageLink}" alt="Profile"/>
         <div class="fb-profile-text">
             <h1>${profile.firstName}</h1>
             <p><b>Country: </b>${profile.country}</p>
