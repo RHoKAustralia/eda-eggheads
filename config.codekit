@@ -1718,15 +1718,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/web-app\/crap.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/web-app\/crap.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/web-app\/css\/_variables.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1784,6 +1775,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/web-app\/css\/elements\/_login.scss",
 		"outputAbbreviatedPath": "\/web-app\/css\/elements\/_login.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/web-app\/css\/elements\/_profile.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/web-app\/css\/elements\/_profile.scss",
+		"outputAbbreviatedPath": "\/web-app\/css\/elements\/_profile.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
