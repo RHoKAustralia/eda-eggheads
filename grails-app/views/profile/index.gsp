@@ -58,9 +58,14 @@
                 <g:each in="${profile.comments}">
                     <div class="media">
                         <p class="pull-right"><small><g:formatDate format="HH:mm 'on' dd/MM/yyyy" date="${it.created}"/></small></p>
-                        <a class="media-left" href="#">
-                            <img src="${profile.profileImageLink}">
-                        </a>
+
+                        <g:if test="${it.author.profile.profileImage}">
+                            <a class="media-left" href="#"><img src="${profile.profileImageLink}"></a>
+                        </g:if>
+                        <g:else>
+                            <g:img dir="images" file="icon-profile.png"/>
+                        </g:else>
+
                         <div class="media-body">
                             <h4 class="media-heading user_name">${it.author.profile.firstName}</h4>
                             <p>${it.comment}</p>
