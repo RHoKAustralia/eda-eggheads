@@ -22,6 +22,7 @@ class Story {
     static constraints = {
         isSuccessful nullable: true
         clinic nullable: true
+        description size: 0..20000
     }
 
     static transients = ['followers']
