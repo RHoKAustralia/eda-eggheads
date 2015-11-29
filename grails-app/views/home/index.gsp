@@ -19,7 +19,7 @@
 
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <g:link controller="register" action="new">
+                        <g:link controller="register" action="index">
                             <g:img dir="images" file="recipient-info.png" alt="Recipient Info"/>
                         </g:link>
                     </div>
@@ -31,7 +31,7 @@
                     </div>
 
                     <div class="item">
-                        <g:link controller="register" action="new">
+                        <g:link controller="register" action="index">
                             <g:img dir="images" file="stats.png" alt="Stats"/>
                         </g:link>
 

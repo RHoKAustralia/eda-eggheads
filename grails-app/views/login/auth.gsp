@@ -35,7 +35,7 @@
 
         <div class="new-account">
             <p>Don't have an account?</p>
-            <g:link controller="register" action="new">Click here</g:link> to create an account
+            <g:link controller="register" action="index">Click here</g:link> to create an account
         </div>
 
     </div>

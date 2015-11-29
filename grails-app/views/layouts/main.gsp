@@ -25,7 +25,7 @@
 </head>
 
 <body>
-<div class="indicator"></div>
+%{--<div class="indicator"></div>--}%
 
 <g:render template="/elements/header"/>
 
