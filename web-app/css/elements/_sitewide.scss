@@ -13,6 +13,7 @@ html, body {
   color: $header-font-color;
 
   .navbar-brand {
+    padding-right: 0;
     font-family: 'Lato', sans-serif;
     color: $header-font-color;
 
@@ -32,8 +33,12 @@ html, body {
       font-size: 18px;
 
       @include media(sm) {
-        font-size: 24px;
+        font-size: 15px;
         padding-top: 0;
+      }
+
+      @include media(md) {
+        font-size: 24px;
       }
 
     }
@@ -42,7 +47,24 @@ html, body {
       color: $header-font-color;
     }
   }
+
+  .navbar-collapse, .navbar-nav {
+    padding: 0;
+  }
+
+  //.dropdown, .dropdown-toggle, .dropdown-menu {
+  //  background-color: $header-background-color;
+  //  color: $header-font-color;
+  //
+  //  ul {
+  //    li {
+  //      color: $header-font-color;
+  //    }
+  //  }
+  //}
 }
+
+// TODO Yeah.... This also needs to go as well. Farken
 
 /* title */
 .navbar-default .navbar-brand {

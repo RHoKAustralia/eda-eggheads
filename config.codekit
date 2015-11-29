@@ -46,6 +46,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/grails-app\/assets\/images\/icon-profile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2534,
+		"inputAbbreviatedPath": "\/grails-app\/assets\/images\/icon-profile.png",
+		"outputAbbreviatedPath": "\/grails-app\/assets\/images\/icon-profile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/README.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,

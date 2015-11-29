@@ -142,7 +142,10 @@ grails {
             useSecurityEventListener = true
             rejectIfNoRule = false
             fii.rejectPublicInvocations = false
-            successHandler.defaultTargetUrl = '/'
+            successHandler {
+                alwaysUseDefault = true
+                defaultTargetUrl = '/story/list'
+            }
 
             secureChannel.definition = [
                     '/': 'ANY_CHANNEL'

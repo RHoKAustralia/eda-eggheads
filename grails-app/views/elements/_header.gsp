@@ -33,6 +33,20 @@
                 <li>
                     <g:link controller="contact" action="index">Contact</g:link>
                 </li>
+
+                <sec:ifLoggedIn>
+                    <li>
+                        <g:link controller="story" action="list" class="highlighted">
+                            <strong>Stories</strong>
+                        </g:link>
+                    </li>
+                    <li>
+                        <g:link controller="profile" action="index" class="highlighted">
+                            <strong>Profile</strong>
+                        </g:link>
+                    </li>
+                </sec:ifLoggedIn>
+
             <li>
                 <sec:ifLoggedIn>
                     <li class="dropdown">
@@ -42,7 +56,6 @@
                             <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><g:link controller="story" action="list">View Stories</g:link></li>
                             <li><g:link controller="profile" action="edit">Edit Profile</g:link></li>
                             <li role="separator" class="divider"></li>
                             <li><g:link controller="logout"><strong>Logout</strong></g:link></li>

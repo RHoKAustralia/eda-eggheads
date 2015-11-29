@@ -5821,6 +5821,7 @@ html, body {
   background-color: #681067;
   color: #ffffff; }
   .navbar .navbar-brand {
+    padding-right: 0;
     font-family: 'Lato', sans-serif;
     color: #ffffff; }
     .navbar .navbar-brand img {
@@ -5836,10 +5837,15 @@ html, body {
       font-size: 18px; }
       @media (min-width: 768px) {
         .navbar .navbar-brand h3 {
-          font-size: 24px;
+          font-size: 15px;
           padding-top: 0; } }
+      @media (min-width: 992px) {
+        .navbar .navbar-brand h3 {
+          font-size: 24px; } }
     .navbar .navbar-brand li {
       color: #ffffff; }
+  .navbar .navbar-collapse, .navbar .navbar-nav {
+    padding: 0; }
 
 /* title */
 .navbar-default .navbar-brand {
