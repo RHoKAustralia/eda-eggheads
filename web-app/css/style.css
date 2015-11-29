@@ -6005,4 +6005,13 @@ body .no-padding {
 .status-upload form button > i {
   margin-right: 7px; }
 
+.home-carousel {
+  padding: 0; }
+  .home-carousel .carousel-inner .item img {
+    margin: 0 auto; }
+    @media (min-width: 768px) {
+      .home-carousel .carousel-inner .item img {
+        width: auto;
+        height: 540px; } }
+
 /*# sourceMappingURL=style.css.map */
